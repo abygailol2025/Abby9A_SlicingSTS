@@ -1,0 +1,54 @@
+.desktop {
+  background-color: #ae907c;
+  overflow: hidden;
+  width: 100%;
+  min-width: 1440px;
+  min-height: 1024px;
+  position: relative;
+}
+
+.desktop .text-wrapper {
+  position: absolute;
+  top: 88px;
+  left: 55px;
+  width: 1440px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 700;
+  color: #000000;
+  font-size: 128px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .pumpkin-chocolate {
+  position: absolute;
+  top: 88px;
+  left: 779px;
+  width: 661px;
+  height: 936px;
+  aspect-ratio: 0.67;
+  object-fit: cover;
+}
+
+.desktop .div {
+  position: absolute;
+  top: 379px;
+  left: 59px;
+  width: 748px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 400;
+  color: #000000;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+/* Original CSS code should be injected here */
+
+/* Additional semantic structure styles */
+.desktop header {
+  position: relative;
+}
+
+.desktop .content-section {
+  position: relative;
+}
